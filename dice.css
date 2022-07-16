@@ -1,0 +1,56 @@
+[class^="cara-"]{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    padding: 5px;  
+    display: flex;
+}
+
+.cara-1 {
+    justify-content: center;
+    align-items: center;
+}
+
+.cara-2 {
+   
+    justify-content: space-between;
+}
+
+.cara-2 .punto:nth-child(2) {
+    align-self: flex-end;
+}
+
+.cara-3 {
+   
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+
+.cara-3 .punto:nth-child(1) {
+    align-self: flex-start;
+}
+
+.cara-3 .punto:nth-child(3) {
+    align-self: flex-end;
+}
+
+.cara-4 {
+   
+    justify-content: space-between;
+   
+}
+.columna {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.punto {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50% ;
+}
