@@ -8,42 +8,63 @@
     <link rel="stylesheet" href="./dice.css">
 </head>
 <body>
-    <div class="cara-1">
-        <div class="punto"></div>
-    </div>
-    <div class="cara-2">
-        <div class="punto"></div>
-        <div class="punto"></div>
-    </div>
-    <div class="cara-3">
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-    </div>
-    <div class="cara-4">
-        <div class="columna">
+    <div class="conte-princ">
+        <div class="cara-1">
+            <div class="punto"></div>
+        </div>
+        <div class="cara-2">
             <div class="punto"></div>
             <div class="punto"></div>
         </div>
-        <div class="columna">
+        <div class="cara-3">
+            <div class="punto"></div>
             <div class="punto"></div>
             <div class="punto"></div>
         </div>
+        <div class="cara-4">
+            <div class="columna">
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+            <div class="columna">
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+        </div>
+        <div class="cara-5">
+            <div class="fa-5-l">
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+            <div class="fa-5-c">
+                <div class="punto"></div>
+            </div>
+            <div class="fa-5-r">
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+        </div>
+        <div class="cara-6">
+            <div class="fa-6-t">
+                <div class="punto"></div>
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+            <div class="fa-6-b">
+                <div class="punto"></div>
+                <div class="punto"></div>
+                <div class="punto"></div>
+            </div>
+        </div>
     </div>
-    <div class="cara-5">
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
+    <script src="./dice.js"></script>
+    <div class="resultado">
+        <h2> Resultado</h2>
+        <img id="dado-img" src = "./five.png" width="120px">
+        <input type="button" id="boton" value ="Lanzar el Dado" onclick="generaAleat()">
+       
     </div>
-    <div class="cara-6">
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-        <div class="punto"></div>
-    </div>
+
+
 </body>
 </html>

@@ -54,3 +54,43 @@
     height: 20px;
     border-radius: 50% ;
 }
+
+.fa-5-c {
+    display: flex;
+    align-items: center;
+}
+
+.cara-5 {
+    justify-content: space-between;
+}
+
+.fa-5-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-5-r {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cara-6 {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fa-6-t {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-6-b {
+    display: flex;
+    justify-content: space-between;
+
+}.conte-princ {
+    display: flex;
+    flex-wrap: wrap;
+}
